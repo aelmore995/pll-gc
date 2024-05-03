@@ -1,0 +1,13 @@
+<!-- Put this div wherever you want the widget to be embedded -->
+<div id="gc-scoreboard-widget-feeder"></div>
+
+<!-- Put this before the closing </body> tag -->
+<script src="https://widgets.gc.com/static/js/sdk.v1.js"></script>
+<script>
+    window.GC.scoreboard.init({
+        target: "#gc-scoreboard-widget-feeder",
+        widgetId: "76ca766e-520b-4090-8363-a03d442cc9b9",
+		maxVerticalGamesVisible: 10,
+        maxHorizontalGamesVisible: 5
+    })
+</script>
